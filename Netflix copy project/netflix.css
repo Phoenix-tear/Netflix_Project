@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.5) url('Netflix_background.jpg');
+    background-blend-mode: darken;
+    width: 720px;
+    height: 1120px;
+}
+
+.logo img{
+    width: 200px;
+    height: 115px;
+    margin-left: 20px;
+    margin-top: -12px;
+    position: relative;
+    z-index: 15;
+}
+#blur{
+    border: 2px black solid;
+}
+
+
+.container{
+    
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -10px;
+    margin-bottom: 100px;
+    width: 440px;
+    height: 665px;
+    background-color: #000;
+    opacity: 70%;
+    border-radius: 4px;
+
+}
+
+#H1{
+    color: #fff;
+    position: relative;
+    top: -10px;
+    left: 420px;
+    margin-top: 60px;
+    margin-left: 50px;
+    z-index: 9;
+}
+
+input{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 320px;
+    height: 47px;
+    background-color: #333;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    color:#fff;
+    opacity: 100%;
+}
+
+input::placeholder{
+    font-size: 17px;
+    margin-left: 15px;
+    opacity: 100%;
+    
+    
+}
+input[type=email]{
+    margin-left: 470px;
+}
+#span1{
+    position: relative;
+    top: 0px;
+}
+#span2{
+    position: relative;
+    top: 7px;
+}
+#span3{
+   position:relative;
+   top: 15px;
+}
+#span4{
+   position: relative;
+   top: 5px;
+   margin-top: 0px;
+   left: 419px;
+   z-index: 10;
+}
+#Help{
+    color: #fff;
+}
+#colour{
+    font-size: small;
+    color: #0071eb;
+}
+
+    
+
+#Remember{
+    margin-left: 0px;
+}
+input[type=submit]{
+    margin-top: 10px;
+    margin-left: 470px;
+}
+
+input[type=password]{
+    margin-top: 10px;
+    margin-left: 470px;
+}
+
+input[type=submit]{
+    width: 320px;
+    height: 45px;
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+input[type=checkbox]{
+    height: 18px;
+    width: 25px;
+    border-radius: 5px;
+    position: relative;
+    top: 4px;
+    background-color: #fff;
+}
+
+
+label{
+    color: rgb(125, 119, 119);
+}
+
+.form a{
+    float: right;
+    margin-top: 24px;
+    margin-right: 64px;
+    color: rgb(125, 119, 119);
+    text-decoration: none;
+}
+
+.content{
+    margin-top: 440px;
+    font-size: 10px;
+    margin-left: 55px;
+    z-index: 0;
+}
+#Help{
+    position: relative;
+    left: 127px;
+}
+
+.content h2{
+    color: rgb(125, 119, 119);
+}
+
+.container a{
+    color: #fff;
+    text-decoration: none;
+}
+.bottom{
+    position: relative;
+    width: 1253px;
+    height: 250px;
+    background-color: #000;
+    margin-top: 405px;
+    opacity: 70%;
+    border-radius: 4px;
+    border: 5px solid black;
+    
+}
+.Remember{
+    height: 18px;
+    width: 25px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    font-size: 0.85em;
+    
+}
+#L1{
+    font-size: 1.07em;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+    left: 130px;
+}
+#L2{
+    top:52px;
+    left:130px;
+}
+#L3{
+    top:52px;
+    left: 345px;
+}
+#L4{
+    top:52px;
+    left:497px;
+}
+#L5{
+    top:52px;
+    left:680px;
+}
+#L6{
+    top:65px;
+    left:130px;
+}
+#L7{
+    top:65px;
+    left: 250px;
+}
